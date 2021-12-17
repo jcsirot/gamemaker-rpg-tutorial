@@ -1,0 +1,13 @@
+[
+    {
+        "character": "oPlayer",
+        "text": [
+            "Hello! I'm new in town.",
+            "Do you want\nto be my friend?"
+        ]
+    },
+    {
+        "character": "oQuestNPC",
+        "text": ["Stay out of my territory."]
+    }
+]
