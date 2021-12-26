@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+#macro COMMON_ATTRIBUTES "[scale,0.5]"
+
 /*
  * Continues the current dialog and updates the variables.
  *
@@ -21,7 +23,7 @@ function UpdateDialog() {
 	var character = string_copy(line, 0, split-1);
 	currentSpeaker = asset_get_index(character);
 	var text = string_copy(line, split+2, string_length(line)-(split+1));
-	msgElement = scribble(text).wrap(200 - 32).page(0).typewriter_in(1, 0.3);
+	msgElement = scribble(COMMON_ATTRIBUTES + text).wrap(200 - 32).page(0).typewriter_in(1, 0.3);
 	return true;
 }
 
@@ -31,9 +33,8 @@ function NextPage() {
 
 
 if (!initialized) {
-	ChatterboxJump(global.chatterbox,"Start");
+	ChatterboxJump(global.chatterbox, startNode);
 	UpdateDialog();
-	initialized = true;
 }
 
 
@@ -42,6 +43,7 @@ if (--remainingPause > 0) {
 }
 
 x1 = currentSpeaker.x - 32;
+x1 = clamp(x1, 8, RESOLUTION_W - 200 - 8);
 y1 = currentSpeaker.y - 102;
 x2 = x1 + 200;
 y2 = currentSpeaker.y - 32;

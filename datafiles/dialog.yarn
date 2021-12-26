@@ -1,9 +1,23 @@
 #__PrivCrochet_version:1
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 344,-177
-__PrivCrochet_tags: 
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: -92,-455
+__PrivCrochet_tags:
 title: Start
 ---
 oPlayer: Hello! I'm new in town.[/page]Do you want to be my friend?
 oQuestNPC: Stay out of my territory.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 222,-357
+__PrivCrochet_tags:
+title: Other
+---
+<<if visited("Start")>>
+    oPlayer: Your friend isn't so nice.
+    oQuestNPC2: I know...[/page]...[scale, 0.3]He does drugs.
+    oQuestNPC: HEY! I CAN HEAR YOU!
+<<else>>
+    oPlayer: Hello.
+    oQuestNPC2: Hello.
+<<endif>>
 ===

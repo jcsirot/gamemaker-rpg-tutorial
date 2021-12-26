@@ -91,6 +91,7 @@
     {"id":{"name":"ChatterboxAddFindReplace","path":"scripts/ChatterboxAddFindReplace/ChatterboxAddFindReplace.yy",},"order":0,},
     {"id":{"name":"__scribble_config_default_template","path":"scripts/__scribble_config_default_template/__scribble_config_default_template.yy",},"order":1,},
     {"id":{"name":"__scribble_class_vertex_buffer","path":"scripts/__scribble_class_vertex_buffer/__scribble_class_vertex_buffer.yy",},"order":7,},
+    {"id":{"name":"oQuestNPC2","path":"objects/oQuestNPC2/oQuestNPC2.yy",},"order":9,},
     {"id":{"name":"scribble_font_has_character","path":"scripts/scribble_font_has_character/scribble_font_has_character.yy",},"order":3,},
     {"id":{"name":"__ChatterboxClassInstruction","path":"scripts/__ChatterboxClassInstruction/__ChatterboxClassInstruction.yy",},"order":0,},
     {"id":{"name":"scribble_font_add_all","path":"scripts/scribble_font_add_all/scribble_font_add_all.yy",},"order":1,},
@@ -179,9 +180,9 @@
   ],
   "IncludedFiles": [
     {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"dialog.json","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"fText.yy","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"dialog.yarn","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":".DS_Store","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"fText.yy","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.7.603",

@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function NewDialog(dialogFileName, bg = 1){
+function NewDialog(dialogFileName, node="Start", bg = 1){
 	
 	if (file_exists(working_directory + dialogFileName)) {
 		
@@ -16,6 +16,7 @@ function NewDialog(dialogFileName, bg = 1){
 				originInstance = noone;
 			}
 			background = bg;
+			startNode = node;
 		}
 	
 		with (oPlayer) {

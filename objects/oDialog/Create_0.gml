@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 currentSpeaker = undefined;
+startNode = "Start";
 msgElement = undefined;
 remainingPause = 0;
 initialized = false;
