@@ -22,8 +22,8 @@ function PlayerStateFree(){
 	if (keyActivate) {
 
 		
-		var activatedX = lengthdir_x(10, direction);
-		var activatedY = lengthdir_y(10, direction);
+		var activatedX = lengthdir_x(20, direction);
+		var activatedY = lengthdir_y(20, direction);
 		activate = instance_position(x + activatedX, y + activatedY, pEntity);
 		
 		if (activate == noone || activate.entityActivateScript == -1) {

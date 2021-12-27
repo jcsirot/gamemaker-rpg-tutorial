@@ -3,7 +3,10 @@
 
 currentSpeaker = undefined;
 startNode = "Start";
+message = "";
 msgElement = undefined;
+showOptions = false;
+selectedOption = 0;
 remainingPause = 0;
 initialized = false;
 
