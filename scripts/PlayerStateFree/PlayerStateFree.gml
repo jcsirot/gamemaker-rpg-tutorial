@@ -19,9 +19,12 @@ function PlayerStateFree(){
 
 	AnimatePlayerSprite();
 	
+	if (keyAttack) {
+		state = stateAttack;
+		stateAttack = AttackSlash;
+	}
+	
 	if (keyActivate) {
-
-		
 		var activatedX = lengthdir_x(20, direction);
 		var activatedY = lengthdir_y(20, direction);
 		activate = instance_position(x + activatedX, y + activatedY, pEntity);

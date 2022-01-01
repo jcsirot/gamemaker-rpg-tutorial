@@ -13,11 +13,12 @@ function PlayerStateRoll(){
 	image_index = (CARDINAL_ANGLE * totalFrames) + min(totalFrames - 1, (1 - (moveDistanceRemaining / distanceRoll)) * totalFrames);
 	
 	if (moveDistanceRemaining <= 0) {
-		state = PlayerStateFree;	
+		state = PlayerStateFree;
 	}
 	
 	if (collided) {
-		state = PlayerStateFree;
+		state = PlayerStateBonk;
+		moveDistanceRemaining = distanceBonk;
 		ScreenShake(4, 15);
 	}
 }

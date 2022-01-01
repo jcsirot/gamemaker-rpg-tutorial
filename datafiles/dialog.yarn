@@ -1,7 +1,7 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 1
-__PrivCrochet_position: -464,-507
-__PrivCrochet_tags:
+__PrivCrochet_position: -855,-500
+__PrivCrochet_tags: 
 title: Start
 ---
 oPlayer: Hello! 
@@ -13,7 +13,7 @@ oPlayer: Hello!
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 98,-615
-__PrivCrochet_tags:
+__PrivCrochet_tags: 
 title: Other
 ---
 <<if visited("NewInTown")>>
@@ -26,10 +26,17 @@ title: Other
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -292,-793
-__PrivCrochet_tags:
+__PrivCrochet_position: -708,-832
+__PrivCrochet_tags: 
 title: NewInTown
 ---
 oPlayer: Well, I just mind... Do you want to be my friend?
 oQuestNPC: Stay out of my territory.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -378,-794
+__PrivCrochet_tags: 
+title: Sign
+---
+oPlayer: This sign says: "Your princess is in another castle"[/page]???!
 ===
